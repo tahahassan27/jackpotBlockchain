@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "214b55ec-314e-476b-8f0b-ad514546ae42",
+		"name": "jackpotProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "createJackpot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"privateKey\":\"262691d193e37eb72141e6a09b94af788302675a31446f2f2581c82545dfc66f\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/admin-login/createJackpot",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"admin-login",
+						"createJackpot"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "userParticipation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"privateKey\":\"d9e60937347d96bf494d943d2e7f837ee2f6ed067ab8b0e9e762c8d5cb4ca4fb\",\r\n  \"amount\": \"3000000000000000000\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/user-login/pariticipate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"user-login",
+						"pariticipate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "approve",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"privateKey\":\"e8c2238a2ccaaf3afcddfd9351fff8a9c460cc2ae51e29e3cc0012bde0616301\",\r\n   \"address\": \"0x81e615d5D057ebb9821492fa9a48C45a0C096cFf\",\r\n  \"amount\": \"3000000000000000000\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/user-login/approve",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"user-login",
+						"approve"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "adminApprovalForWiinner",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"privateKey\":\"262691d193e37eb72141e6a09b94af788302675a31446f2f2581c82545dfc66f\",\r\n   \"address\": \"0x81e615d5D057ebb9821492fa9a48C45a0C096cFf\",\r\n  \"amount\": \"30000000000000000000\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/admin-login/adminApprovalForWinner",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"admin-login",
+						"adminApprovalForWinner"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pickWinner",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"privateKey\":\"262691d193e37eb72141e6a09b94af788302675a31446f2f2581c82545dfc66f\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/admin-login/pickWinner",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"admin-login",
+						"pickWinner"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getParticipants",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"privateKey\":\"262691d193e37eb72141e6a09b94af788302675a31446f2f2581c82545dfc66f\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/admin-login/getParticipants",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"admin-login",
+						"getParticipants"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

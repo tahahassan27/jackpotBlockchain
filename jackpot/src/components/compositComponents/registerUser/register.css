@@ -1,0 +1,9 @@
+.input {
+    margin:5px 0px;
+}
+input:invalid {
+    border-color: rgb(0, 0, 0);
+    box-shadow: rgb(168, 163, 163);
+}
+
+
